@@ -1,0 +1,67 @@
+name: pymol
+channels:
+  - guyer
+  - schrodinger
+  - fable
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - cloog=0.18.0=0
+  - dbus=1.13.2=h760590f_1
+  - expat=2.2.5=hb8e80ba_0
+  - gcc=4.8.5=8
+  - gettext=0.19.8.1=h15daf44_3
+  - glib=2.56.1=h35bc53a_0
+  - gmp=6.1.2=hb37e062_1
+  - isl=0.12.2=1
+  - jpeg=9b=he5867d9_2
+  - mpc=1.0.3=h7a72875_5
+  - mpfr=3.1.5=h711e7fd_2
+  - pcre=8.42=h378b8a2_0
+  - boost-cpp=1.66.0=1
+  - bzip2=1.0.6=1
+  - glew=2.0.0=h470a237_0
+  - msgpack-c=2.1.5=0
+  - blas=1.0=mkl
+  - ca-certificates=2018.03.07=0
+  - certifi=2018.8.13=py27_0
+  - freetype=2.9.1=hb4e5f40_0
+  - icu=58.2=h4b95b61_1
+  - intel-openmp=2018.0.3=0
+  - libcxx=4.0.1=h579ed51_0
+  - libcxxabi=4.0.1=hebd6815_0
+  - libedit=3.1.20170329=hb402a30_2
+  - libffi=3.2.1=h475c297_4
+  - libgfortran=3.0.1=h93005f0_2
+  - libiconv=1.15=hdd342a3_7
+  - libpng=1.6.34=he12f830_0
+  - libxml2=2.9.8=hab757c2_1
+  - mkl=2018.0.3=1
+  - mkl_fft=1.0.4=py27h5d10147_1
+  - mkl_random=1.0.1=py27h5d10147_1
+  - msgpack-python=0.5.6=py27h04f5b5a_1
+  - ncurses=6.1=h0a44026_0
+  - numpy=1.15.0=py27h648b28d_0
+  - numpy-base=1.15.0=py27h8a80b8c_0
+  - openssl=1.0.2o=h1de35cc_1
+  - pip=10.0.1=py27_0
+  - pyqt=4.11.4=py27_4
+  - python=2.7.15=h138c1fe_0
+  - qt=4.8.7=4
+  - readline=7.0=hc1231fa_4
+  - setuptools=40.0.0=py27_0
+  - sip=4.18=py27_0
+  - sqlite=3.24.0=ha441bb4_0
+  - tk=8.6.7=h35a86e2_3
+  - wheel=0.31.1=py27_0
+  - xz=5.2.4=h1de35cc_4
+  - zlib=1.2.11=hf3cbc9b_2
+  - pmw=2.0.0=py27_0
+  - glm=0.9.7.4=1
+  - simplemmtf-python=0.1=py27_1
+  - pip:
+    - msgpack==0.5.6
+    - simplemmtf==0.1
+prefix: /Users/changsun/miniconda3/envs/pymol
+

@@ -1,0 +1,8 @@
+1. Create a python 2.7 environment using conda.
+2. Add all the required and missing packages with conda. Particularly, gcc
+should be installed. A yml file of the final conda environment is included in
+this folder.
+3. python setup.py build install --osx-frameworks
+This command first build the package under the "build" sub-directory, 
+then copy the package into designated directory.
+** --osx-frameworks is the key, otherwise, the pymol screen appears red.
