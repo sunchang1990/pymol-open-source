@@ -1,10 +1,10 @@
 name: pymol
 channels:
-  - guyer
   - schrodinger
+  - guyer
   - fable
-  - conda-forge
   - anaconda
+  - conda-forge
   - defaults
 dependencies:
   - cloog=0.18.0=0
@@ -44,14 +44,14 @@ dependencies:
   - ncurses=6.1=h0a44026_0
   - numpy=1.15.0=py27h648b28d_0
   - numpy-base=1.15.0=py27h8a80b8c_0
-  - openssl=1.0.2o=h1de35cc_1
+  - openssl=1.0.2p=h1de35cc_0
   - pip=10.0.1=py27_0
-  - pyqt=4.11.4=py27_4
+  - pyqt=5.9.2=py27h655552a_0
   - python=2.7.15=h138c1fe_0
-  - qt=4.8.7=4
+  - qt=5.9.6=h74ce4d9_0
   - readline=7.0=hc1231fa_4
   - setuptools=40.0.0=py27_0
-  - sip=4.18=py27_0
+  - sip=4.19.8=py27h0a44026_0
   - sqlite=3.24.0=ha441bb4_0
   - tk=8.6.7=h35a86e2_3
   - wheel=0.31.1=py27_0
